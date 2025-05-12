@@ -4,33 +4,26 @@ This project simulates and controls an inverted pendulum mounted on a cart using
 
 ## 📽️ Demo
 
-| Simulation | Real-Life Test |
-|------------|----------------|
-| ![Simulation](images/system_diagram.png) | ![Real Test](images/results_plot.png) |
-
 ➡️ **Watch Videos:**  
 - 🎥 [Simulation Demo](videos/simulation_demo.mp4)  
-- 🎥 [Real-Life Test](videos/real_life_test.mp4)
+- 🎥 [Real-Life Test] (Inverted Pendulum on a Cart REAL LIFE TEST (LQR Controller))
+(https://youtu.be/ansrFmS1zb4)
 
 ## 🛠 Features
 
 - MATLAB-based simulation and control
 - Visualization of cart-pendulum motion
-- Controller tuning using pole placement and LQR
+- Controller tuning
 - System diagrams and plots
-- Real-time performance insights (if implemented on hardware)
+- Real-time performance insights
 
 ## 📁 Project Structure
 inverted-pendulum-cart/ ├── matlab_code/ # MATLAB scripts and functions ├── images/ # Diagrams and plots ├── videos/ # Simulation and hardware test videos ├── docs/ (optional) # Reports or additional documentation ├── README.md # Project overview ├── LICENSE # License file (e.g., MIT) └── .gitignore # Files to ignore in version control
 
-## 🔧 Requirements
-
-- MATLAB R2021a or later
-- Control System Toolbox
 
 ## ▶️ Running the Code
 
-1. Open `main_simulation.m` in MATLAB.
+1. Open `LQR.m` in MATLAB.
 2. Run the script to simulate the system.
 3. Modify parameters in `controller_design.m` to tune your control system.
 
